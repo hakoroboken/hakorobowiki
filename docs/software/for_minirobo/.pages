@@ -1,0 +1,4 @@
+nav:
+    - Introduction: index.md
+    - UDP通信入門（ESP32）: esp32_udp.md
+    - UDP通信入門（Rust）: rust_udp.md
