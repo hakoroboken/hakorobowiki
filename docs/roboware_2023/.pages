@@ -4,6 +4,6 @@ nav:
     - Install: source-installation.md
     - Message: message.md
     - ros2_rust_util: ros2_rust_util.md
-    - ekf_rust_util: ekf_rust_util.md
+    - rust_imu_utils: rust_imu_utils.md
     - Packages: packages
     - Tutorials: tutorials
