@@ -37,6 +37,12 @@ https://github.com/earlephilhower/arduino-pico/releases/download/global/package_
 
 ![image](./img/pref.png)
 
+### ボードライブラリのダウンロード
+最後にボードライブラリをダウンロードします。画面左側のバーのうち、上から２番目を選択するとボードマネージャーが出るはずです。
+検索欄に「esp」といれると、**esp32 by Espressif Systems**があるはずなのでインストールしてください。写真だと１番下ですね。
+
+![image](./img/boards_manager.png)
+
 ## マイコンのGPIO
 ***マイコン***にはたくさんの足が生えており、そのうちの大体を占めるのがGPIO（General Purpose Input/Output（ジェネラル・パーパス・インプット/アウトプット））です。これらは汎用I/Oとも呼ばれ、そこにかかる電圧を読み取ったり、電圧を出力したりできるわけです。まずは簡単にLEDを点灯するコードを見ていきましょう。
 
