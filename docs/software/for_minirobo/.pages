@@ -1,5 +1,2 @@
 nav:
     - Introduction: index.md
-    - 1.UDP通信入門（マイコン）: esp32_udp.md
-    - 2.UDP通信入門（PC）: rust_udp.md
-    - 3.ゲームコントローラーを扱う: game_con.md
