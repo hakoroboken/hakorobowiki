@@ -43,6 +43,23 @@ https://github.com/earlephilhower/arduino-pico/releases/download/global/package_
 
 ![image](./img/boards_manager.png)
 
-## マイコンのGPIO
-***マイコン***にはたくさんの足が生えており、そのうちの大体を占めるのがGPIO（General Purpose Input/Output（ジェネラル・パーパス・インプット/アウトプット））です。これらは汎用I/Oとも呼ばれ、そこにかかる電圧を読み取ったり、電圧を出力したりできるわけです。まずは簡単にLEDを点灯するコードを見ていきましょう。
+## Start Coding
+### Hello ESP32
+よく使う画面表示するプログラムです。Arduinoでは大きく２つの関数があり、まずsetup関数、これは起動時の最初の一回だけ動く関数です。
+```cpp
+void setup()
+{
+    Serial.begin(115200);
+}
+```
+Arduinoではシリアルというのを用いてマイコン側からつながっているPCに画面表示します。上記のように通信速度を指定して初期化します。
 
+### マイコンのGPIO
+***マイコン***にはたくさんの足（ピン）が生えており、そのうちの大体を占めるのがGPIO（General Purpose Input/Output（ジェネラル・パーパス・インプット/アウトプット））です。これらは汎用I/Oとも呼ばれ、そこにかかる電圧を読み取ったり、電圧を出力したりできるわけです。まずは簡単にLEDを点灯するコードを見ていきましょう。
+
+```cpp
+void setup()
+{
+    pinMode(T1, OUTPUT);
+}
+```
