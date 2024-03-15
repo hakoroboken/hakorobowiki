@@ -77,8 +77,8 @@ void setup()
 いよいよメッセージを送信する部分についての解説です。そもそもUDP通信ではパケットというものを作成して送信しています。パケットとは通信するために情報を細切れにしたようなものです。
 これには通信相手の情報も必要なので仮に以下のようにします。
 ```cpp
-const IPAddress remote_addr(192, 168, 4, 2);
-const uint16_t remote_port = 5000;
+const IPAddress remote_ip(192, 168, 4, 2);
+const uint16_t remote_port = 8080;
 ```
 
 それでは実際に送信するコードを記述します。こちらはloop関数内です。
@@ -86,7 +86,7 @@ const uint16_t remote_port = 5000;
 ```cpp
 void loop()
 {
-    udp.beginPacket(remote_addr, remote_port);
+    udp.beginPacket(remote_ip, remote_port);
     udp.print("Hello ESP32");
     udp.endPacket();
 }
@@ -118,6 +118,48 @@ void loop()
 
 
 ## おわりに
+まとめました。
+```cpp
+#include <WiFi.h>
+#include <WiFiUdp.h>
+
+const char* ssid = "TestServer";
+const char* pass = "test1000";
+const uint16_t port = 10000;
+
+const IPAddress ip(192, 168, 4, 1);
+const IPAddress gateway(192, 168, 4, 1);
+const IPAddress subnet(255, 255, 255, 0);
+
+const IPAddress remote_ip(192, 168, 4, 2);
+const uint16_t remote_port = 8080;
+
+WiFiUDP udp;
+
+char buf[256];
+
+void setup() {
+  Serial.begin(115200);
+  Serial.printf("Start Connecting");
+
+  WiFi.softAP(ssid, pass);
+  WiFi.softAPConfig(ip, gateway, subnet);
+
+  Serial.println("\nWiFi is Connected");
+
+  udp.begin(port);
+  Serial.println("Start UDP");
+}
+
+void loop() {
+    udp.read(buf, 256);
+    Serial.println(buf);
+
+    udp.beginPacket(remote_ip, remote_port);
+    udp.printf("Hello, ESP32");
+    udp.endPacket();
+}
+```
 これでマイコン側の通信の準備ができました。しかしこれでは送信も受信もできているかわからないので、PC側での通信も合わせて実装していきましょう。
 
 [３．手元のPC側](./rust_udp.md)
