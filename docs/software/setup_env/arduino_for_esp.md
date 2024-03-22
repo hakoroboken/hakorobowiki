@@ -20,7 +20,7 @@ ArduinoIDEを起動（他のソフトと同じようにダブルクリックで�
 そして下のリンクを「Additional boards manager URLs」にコピーしてください。
 
 ```
-https://github.com/earlephilhower/arduino-pico/releases/download/global/package_rp2040_index.json
+https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
 ```
 
 ![image](./img/pref.png)
