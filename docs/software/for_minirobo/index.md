@@ -24,7 +24,9 @@ flowchart LR
 [２．マイコンでUDP通信を始める](./udp_esp32.md)
 
 ## PCからの通信
-[３．手元のPC側](./rust_udp.md)
+[３．Rustについて](./start_rust.md)
+
+[４．Rustで始めるUDP通信](./rust_udp.md)
 
 ## ゲームコントローラーを扱う
 ゲームコントローラーを扱うプログラムについて
