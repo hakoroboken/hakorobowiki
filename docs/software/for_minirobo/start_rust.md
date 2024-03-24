@@ -75,10 +75,8 @@ print!("x = {}", x);
 しれっとprint!の使い方も入ってしまいました。
 C言語なら、**%d**とか**%lf**とか書くところを**{ }**に置き換えて書くみたいです。
 
-### その他
-Rustで使える条件式とかです。
 
-**if**
+### if
 ```rs
 let x = 40;
 
@@ -96,7 +94,7 @@ else
 }
 ```
 
-**for**
+### for
 ```rs
 for i in 0..5;
 {
@@ -112,7 +110,7 @@ for i in 0..5;
 // No.4:x = 8
 ```
 
-**loop**
+### loop
 ```rs
 let mut x = 0;
 loop
@@ -133,7 +131,7 @@ loop
 // x = 99
 ```
 
-**match**
+### match
 ```rs
 let value = 567;
 
@@ -151,7 +149,52 @@ match value
 // 3tu no doredemo naiyo
 ```
 
-**use**
+### struct（構造体）とimpl（インプリント）
+```rs
+struct Add
+{
+    pub x_value:i32,
+    pub y_value:i32
+}
+
+impl Add {
+    pub fn new(a:i32, b:i32)->Add
+    {
+        let result = Add{
+            x_value:a, y_value:b
+        };
+
+        result
+    }
+
+    pub fn run(self)
+    {
+        print!("Result is {}\n", self.x_value+self.y_value);
+    }
+}
+
+fn main()
+{
+    let test = Add::new(4, 5);
+
+    print!("x_value:{}, y_value:{}\n", test.x_value, test.y_value);
+
+    test.run();   
+}
+
+// 実行結果
+// x_value:4, y_value:5
+// Result is 9
+```
+構造体とは複数の変数をまとめたものである。また、Rustではインプリントと言って、構造体に関数を付与することができる。
+また、構造体内の変数の前に**pub**とついているのは後に外部からその値を触ってもよいということを指す。
+なので、**main**関数で**test.x_value**のようにさわることができている。
+
+**main**関数の冒頭で**Add**にimpl（インプリント）したnew関数を使っている。これは引数を構造体内の変数に入れて返すという関数で上記のように使うことができる。ここで、testという変数の型は**Add**になる。
+
+
+### use
+
 stdライブラリ内のf32(float32)というライブラリ内のconsts（定数ｓ）内にある定数であるPIを使う宣言をする。
 ```rs
 use std::f32::consts::PI;
@@ -170,8 +213,9 @@ fn main()
 // pi^2 = 9.869605
 ```
 また、f32にはpowiという関数がインプリントされているため、ドットで区切って呼び出すことができる。（sqrtとかもある）
+ここで気づいたかもしれないが、構造体内の関数だったり、ライブラリ内の構造体だったり、より中身に入っていくときは「::（コロン）」が使われる。
 
-**Result**
+### Result
 
 RustではResultという型が頻出する。これはその名の通りなにかの実行結果を指す型で以下のように使う
 ```rs
@@ -213,3 +257,8 @@ fn check(number: i32)->Result<(), Error>
 
 またResult型にはunwrapという関数が備わっていて、これはResultを結果とする関数についてOKであることを前提に後のコードを進めるよという関数です。
 しかしエラーが発生すると、以下のように途中でプログラムが終わってしまいます。通信OKじゃないのに送受信するところに行ったりしたら困りますからね。
+
+## おわりに
+次からはRustで始めるUDP通信です。
+
+[４．Rustで始めるUDP通信](./rust_udp.md)
