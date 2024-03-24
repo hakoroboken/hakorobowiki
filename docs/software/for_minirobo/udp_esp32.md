@@ -69,6 +69,9 @@ WiFiUDP udp;
 ```cpp
 void setup()
 {
+    WiFi.softAP(ssid, pass);
+    WiFi.softAPConfig(ip, gateway, subnet);
+    
     udp.begin(port);
 }
 ```
