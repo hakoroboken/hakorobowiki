@@ -14,3 +14,5 @@
 １.[アカウントをつくろう](./create_account.md)
 
 ２.[リポジトリをつくろう](./create_repo.md)
+
+３.[ファイルをアップロードしよう](./add_file.md)
