@@ -2,3 +2,4 @@ nav:
     - Introduction: index.md
     - ミニロボ向け: for_minirobo
     - 環境構築ガイド: setup_env
+    - Githubを始めよう: start_github
