@@ -1,12 +1,12 @@
 # リポジトリをつくろう
 アカウントを作れたら以下のような画面になっているはずなので左上らへんにある緑色の「**Create repository**」ボタンを押してリポジトリを作成しましょう。
 
-![image](./img/home.png)
+![image](./img/create_repo/home.png)
 
 # リポジトリの設定
 リポジトリとはGithubにおけるプログラムパッケージの最小単位でリポジトリの名前がそのままパッケージ名であることが多いです。
 
-![image](./img/cre_repo.png)
+![image](./img/create_repo/cre_repo.png)
 
 上から以下のような感じです。
 **owner**：リポジトリの所有者を決めます。特にいじる必要はありません。
@@ -25,6 +25,9 @@
 # リポジトリ完成
 最後に下にあった緑色の「Create Repository」を押せばリポジトリの作成は完了です。
 
+![image](./img/create_repo/repo.png)
+
+
 次はリポジトリにフォルダなどを追加してみましょう。
 
-[ファイルをアップロードしよう](./add_file.md)
+[リポジトリを編集しよう](./add_file.md)
