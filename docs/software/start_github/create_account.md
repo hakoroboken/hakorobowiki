@@ -3,16 +3,16 @@
 ## Githubサイトへ飛ぶ
 [**ここ**](https://github.co.jp/)のリンクにアクセスして以下のページに飛んでください。そして、右上の**Sign up**ボタンからGithubアカウントを作成しましょう。
 
-![image](./img/create_account.png)
+![image](./img/create_account/create_account.png)
 
 ## Emailなどを入力
 以下のページがでたらお好きな自分のメールアドレス（高専のものでも良いですがGmailで作ることをオススメします）
 
-![image](./img/input_email.png)
+![image](./img/create_account/input_email.png)
 
 パスワードなども好きに設定してください。
 
-![image](./img/input_pass.png)
+![image](./img/create_account/input_pass.png)
 
 最後のチェックマークはつけなくても大丈夫です。
 AIじゃないことを証明したら設定したメールアドレスに番８桁の番号がとどくのでそれを入力してください。
@@ -21,16 +21,16 @@ AIじゃないことを証明したら設定したメールアドレスに番８
 
 するとなんかよくわからないことを聞かれると思うのでガン無視でいきましょう。
 
-![image](./img/yoku_wakaran.png)
+![image](./img/create_account/yoku_wakaran.png)
 
 ## 無料版
 最後にFor freeを押したらアカウント作成完了
 
-![image](./img/for_free.png)
+![image](./img/create_account/for_free.png)
 
 ## 完成
 
-![image](./img/home.png)
+![image](./img/create_repo/home.png)
 
 次はリポジトリを作ってみましょう
 
