@@ -120,16 +120,16 @@ $$
 特定のモータの回転速度を決める
 
 ```C++
-control_front_right(128)
+zk_api::control_front_right(128)
 ```
 ```C++
-control_front_left(-128)
+zk_api::control_front_left(-128)
 ```
 ```C++
-control_rear_left(128)
+zk_api::control_rear_left(128)
 ```
 ```C++
-control_rear_right(-128)
+zk_api::control_rear_right(-128)
 ```
 
 | 変数名 | 型 | 想定される範囲 |
