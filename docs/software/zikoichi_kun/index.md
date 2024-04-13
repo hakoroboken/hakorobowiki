@@ -56,7 +56,9 @@ void loop() {
 }
 
 int main(void){
-  loop();
+  while(true){
+    loop();
+  }
 }
 ```
 
