@@ -1,9 +1,9 @@
 site_name: HakoRoboWiki
-site_url: https://github.com/roboware-org/roboware
-repo_url: https://github.com/roboware-org/roboware
-edit_uri: https://github.com/roboware-org/roboware
+site_url: https://github.com/hakoroboken/hakorobowiki
+repo_url: https://github.com/hakoroboken/hakorobowiki
+edit_uri: https://github.com/hakoroboken/hakorobowiki
 docs_dir: docs
-copyright: Copyright &copy; 2023 roboware-org
+copyright: Copyright &copy; 2024 hakoroboken
 
 theme:
   name: material
