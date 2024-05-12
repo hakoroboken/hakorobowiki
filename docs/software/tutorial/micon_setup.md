@@ -1,4 +1,6 @@
 # ArduinoIDEの環境構築
+マイコンにプログラムを書き込むソフトウェアの１つでもあるArduinoIDEのインストールについて説明します。
+
 
 ## ソフトのダウンロード
 [こちらのリンク](https://www.arduino.cc/en/software)から「Arduino（アルディーノ）IDE」ダウンロードしてください。
