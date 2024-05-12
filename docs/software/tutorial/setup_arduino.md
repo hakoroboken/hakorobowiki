@@ -50,3 +50,8 @@ pip install pyserial
 検索欄に「esp」といれると、**esp32 by Espressif Systems**があるはずなのでインストールしてください。写真だと１番下ですね。
 
 ![image](./setup_env_img/boards_manager.png)
+
+## 終わりに
+これで環境構築が終了したので具体的にマイコンがどういうものなのかを勉強していきます。
+
+[マイコンに触れる](./touch_micon.md)
