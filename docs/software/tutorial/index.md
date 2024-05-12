@@ -17,6 +17,16 @@
 
 [２．Rustで始めるUDP通信](./rust_udp.md)
 
+## Githubで始める集団開発の基本
+
+[１．Githubのアカウントをつくる](./start_github/create_account.md)
+
+[２．リポジトリを作成する](./start_github/create_repo.md)
+
+[３．リポジトリにファイルを追加する](./start_github/add_file.md)
+
+[４．リポジトリをフォークする＆プルリクエストを出す](./start_github/fork_and_pullreq.md)
+
 ## その他
 
 [ゲームコントローラー用外部パッケージを扱う](./game_con.md)
