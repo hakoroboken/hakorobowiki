@@ -10,7 +10,7 @@
 
 [２．マイコンにふれる](./micon_touch.md)
 
-[３．マイコンでUDP通信を始める](./udp_esp32.md)
+[３．マイコンでUDP通信を始める](./micon_udp.md)
 
 ## Rust
 [１．Rustについて](./start_rust.md)
