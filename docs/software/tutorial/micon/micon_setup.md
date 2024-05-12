@@ -1,4 +1,6 @@
-# ArduinoIDEでESP32を開発するための環境構築
+# ArduinoIDEの環境構築
+マイコンにプログラムを書き込むソフトウェアの１つでもあるArduinoIDEのインストールについて説明します。
+
 
 ## ソフトのダウンロード
 [こちらのリンク](https://www.arduino.cc/en/software)から「Arduino（アルディーノ）IDE」ダウンロードしてください。
@@ -50,3 +52,8 @@ pip install pyserial
 検索欄に「esp」といれると、**esp32 by Espressif Systems**があるはずなのでインストールしてください。写真だと１番下ですね。
 
 ![image](./img/boards_manager.png)
+
+## 終わりに
+これで環境構築が終了したので具体的にマイコンがどういうものなのかを勉強していきます。
+
+[マイコンに触れる](./micon_touch.md)

@@ -1,6 +1,4 @@
 nav:
     - Introduction: index.md
-    - ミニロボ向け: for_minirobo
-    - 環境構築ガイド: setup_env
-    - Githubを始めよう: start_github
+    - チュートリアル: tutorial
     - 自己位置くんで遊ぼう: zikoichi_kun
