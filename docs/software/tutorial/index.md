@@ -6,16 +6,16 @@
 
 
 ## Arduino(マイコン)
-[マイコンを開始する環境を整える](./setup_arduino.md)
+[１．マイコンを開始する環境を整える](./micon_setup.md)
 
-[マイコンにふれる](./touch_micon.md)
+[２．マイコンにふれる](./micon_touch.md)
 
-[マイコンでUDP通信を始める](./udp_esp32.md)
+[３．マイコンでUDP通信を始める](./udp_esp32.md)
 
 ## Rust
-[Rustについて](./start_rust.md)
+[１．Rustについて](./start_rust.md)
 
-[Rustで始めるUDP通信](./rust_udp.md)
+[２．Rustで始めるUDP通信](./rust_udp.md)
 
 ## その他
 
