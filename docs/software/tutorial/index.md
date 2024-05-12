@@ -6,11 +6,11 @@
 
 
 ## マイコン
-[１．マイコンを開始する環境を整える](./micon_setup.md)
+[１．マイコンを開発する環境を整える](./micon/micon_setup.md)
 
-[２．マイコンにふれる](./micon_touch.md)
+[２．マイコンにふれる](./micon/micon_touch.md)
 
-[３．マイコンでUDP通信を始める](./micon_udp.md)
+[３．マイコンでUDP通信を始める](./micon/micon_udp.md)
 
 ## Rust
 [１．Rustについて](./start_rust.md)
