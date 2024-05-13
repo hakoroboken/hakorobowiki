@@ -12,6 +12,8 @@
 
 [３．マイコンでUDP通信を始める](./micon/micon_udp.md)
 
+[番外編　ESP32を開発するための環境](./any/esp32_setup.md)
+
 ## Rust
 [１．Rustについて](./start_rust.md)
 
