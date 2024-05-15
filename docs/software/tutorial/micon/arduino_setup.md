@@ -18,4 +18,4 @@ Windowsの場合は下の写真の「Windows win10 and newer 64bits」クリッ�
 ## 終わりに
 これで環境構築が終了したので具体的にマイコンがどういうものなのかを勉強していきます。
 
-[マイコンに触れる](./micon_touch.md)
+[マイコンに触れる](./arduino_touch.md)
