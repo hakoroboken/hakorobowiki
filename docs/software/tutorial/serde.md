@@ -1,9 +1,9 @@
-# 文字列送るのめんどくせーよの会
+# Json形式を使う
 
 ## はじめに
-PCとマイコン間で通信ができるようになりましたが、実際送っていたのは「Hello,  World!!」みたいな文章です。え？ロボットで使えるわけがなくない？
+今まで通信する際に送っていたのは「Hello,  World!!」みたいな文章です。え？ロボットで使えるわけがなくない？
 
-ということで送信するデータに工夫する会です。
+ということで送信するデータに工夫していきましょう。
 
 ## Json形式
 今回はプログラムで用意した構造体をJson形式に変換するという手法をとります。json形式とは**JavaScript Object Notation**という**JavaScript**という言語におけるオブジェクトの定義の仕方を参考にした定義です。なんとRustにはこれらの変換を簡単に行えるクレート（ライブラリみたいなもん）があるので活用していきましょう。
@@ -122,53 +122,6 @@ Serialized:{"name":"Motii","age":18,"favorite_number":123.456}
 Deserialized name:Motii, age:18, fav_num:123.456
 ```
 
-## ESP32でも同じことをする
-### ライブラリのインストール
-コードを書くために[**ArduinoJson**](https://arduinojson.org/)というライブラリをライブラリマネージャーよりインストールしておいてください。
-
-そしてインクルードします。
-```cpp
-#include <ArduinoJson.h>
-```
-そしてJson形式を扱うときにはArduinoでは以下の変数を用意してください。また、Rustと同じような構造体を作成します。
-
-```cpp
-#include <ArduinoJson.h>
-
-struct Message
-{
-    String name;
-    int age;
-    float favorite_number;
-}
-
-JsonDocument doc;
-
-const char *msg = "{"name":"Motii","age":0,"favorite_number":66.66}";
-
-void setup()
-{
-
-}
-
-void loop()
-{
-    DeserializationError err = deserializeJson(doc, msg);
-
-    String name = doc["name"];
-    int age = doc["age"];
-    float fav_num = doc["favorite_number"];
-
-    Message msg;
-    msg.name = name;
-    msg.age = age;
-    msg.favorite_number = fav_num;
-}
-```
-
-今回は詳しい使い方は書きませんでしたが、これで受信したメッセージを構造体にすることができました。
-通信するときに有効活用してください。
 
 ## おわりに
-ここまででミニロボへ向けた一通りの資料が終了しました。わからないことがあったら執筆者である[Motii](https://github.com/motii8128)へお願いします。
-また、調べれば同じようなことをしている資料が出てくるかもしれないので、いろんな情報を取捨選択して頑張りましょう。
+調べれば同じようなことをしている資料が出てくるかもしれないので、いろんな情報を取捨選択して頑張りましょう。
