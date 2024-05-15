@@ -12,11 +12,11 @@
 [２．マイコンにふれる](./micon/arduino_touch.md)
 
 ## ESP32
-[１．ESP32を開発するための環境](./any/esp32_setup.md)
+[１．ESP32を開発するための環境](./micon/esp32_setup.md)
 
-[２．ESP32でのAnalog制御](./any/esp32_analog.md)
+[２．ESP32でのAnalog制御](./micon/esp32_analog.md)
 
-[３．マイコンでUDP通信を始める](./micon/esp32_udp.md)
+[３．ESP32でUDP通信を始める](./micon/esp32_udp.md)
 
 
 # Rust

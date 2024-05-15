@@ -41,3 +41,5 @@ pip install pyserial
 検索欄に「esp」といれると、**esp32 by Espressif Systems**があるはずなのでインストールしてください。写真だと１番下ですね。
 
 ![image](./img/boards_manager.png)
+
+[チュートリアル一覧に戻る](../index.md)
