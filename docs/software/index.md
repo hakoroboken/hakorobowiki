@@ -1,9 +1,7 @@
 # Software
 
-## 目次
+## - [ソフトウェアチュートリアル](./tutorial/index.md)
 
-- [C++ プログラミング](./cpp/index.md)
+## - [自己位置くんで遊ぼう](./zikoichi_kun/index.md)
 
-- [ソフトウェアチュートリアル](./tutorial/index.md)
-
-- [自己位置くんで遊ぼう](./zikoichi_kun/index.md)
+## - [C++ プログラミング](./cpp/index.md)
