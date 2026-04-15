@@ -4,6 +4,16 @@
 
 ロボットを動かすことのできる最低限のソフトウェアを学ぶことができます。（という執筆者もプログラムはロボット研究会に来てから始めた初心者なんですけどね笑）
 
+## Github
+
+[１．Githubのアカウントをつくる](./start_github/create_account.md)
+
+[２．リポジトリを作成する](./start_github/create_repo.md)
+
+[３．リポジトリにファイルを追加する](./start_github/add_file.md)
+
+[４．リポジトリをフォークする＆プルリクエストを出す](./start_github/fork_and_pullreq.md)
+
 
 ## Hardware
 ### Arduino
@@ -30,13 +40,3 @@
 [ゲームコントローラー用外部パッケージを扱う](./game_con.md)
 
 [Json形式を使う](./serde.md)
-
-## Github
-
-[１．Githubのアカウントをつくる](./start_github/create_account.md)
-
-[２．リポジトリを作成する](./start_github/create_repo.md)
-
-[３．リポジトリにファイルを追加する](./start_github/add_file.md)
-
-[４．リポジトリをフォークする＆プルリクエストを出す](./start_github/fork_and_pullreq.md)
