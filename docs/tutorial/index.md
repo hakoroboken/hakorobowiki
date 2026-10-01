@@ -38,7 +38,7 @@
 
 [２．Rustで始めるUDP通信](./software/rust/rust_udp.md)
 
-#### その他  
+##### その他  
 - [ゲームコントローラー用外部パッケージを扱う](./software/rust/game_con.md)
 
 - [Json形式を使う](./software/rust/serde.md)
