@@ -1,4 +1,5 @@
 nav:
     - Introduction: index.md
+    - チュートリアル: tutorial
+    - 実践編: practice
     - Roboware 2023: roboware_2023
-    - Software: software
