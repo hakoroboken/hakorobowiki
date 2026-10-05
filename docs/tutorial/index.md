@@ -29,15 +29,7 @@
 <!-- ./micon/micon_json.md -->
 
 ## Software
-### Rust
-[１．Rustについて](./software/rust/start_rust.md)
 
-[２．Rustで始めるUDP通信](./software/rust/rust_udp.md)
+ソフトウェアを書くためのRustやCPPの基本知識を学べます。
 
-##### その他  
-- [ゲームコントローラー用外部パッケージを扱う](./software/rust/game_con.md)
-
-- [Json形式を使う](./software/rust/serde.md)
-
-### C++
-- [C++ チュートリアルホームページ](./software/cpp/index.md)
+[<< ソフトウェアチュートリアルページ >>](./software/index.md)

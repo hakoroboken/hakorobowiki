@@ -1,0 +1,5 @@
+title: その他
+
+nav:
+    - ゲームコントローラー用外部パッケージを扱う: 01.game_con.md
+    - Json形式を使う: 02.serde.md
