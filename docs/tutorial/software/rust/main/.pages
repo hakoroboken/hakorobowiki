@@ -1,0 +1,5 @@
+title: メイン
+
+nav:
+    - 1.Rustで始めるPC側の準備: 01.start_rust.md
+    - 2.Rustで始めるUDP通信: 02.rust_udp.md
