@@ -4,16 +4,12 @@
 
 ロボットを動かすことのできる最低限のソフトウェアを学ぶことができます。（という執筆者もプログラムはロボット研究会に来てから始めた初心者なんですけどね笑）
 
-## Github
+## GitHub
 
-[１．Githubのアカウントをつくる](./github/create_account.md)
+ファイル管理を行うGitHubの基本操作を学びます。  
+プログラムを書く人は必ず目を通してください。
 
-[２．リポジトリを作成する](./github/create_repo.md)
-
-[３．リポジトリにファイルを追加する](./github/add_file.md)
-
-[４．リポジトリをフォークする＆プルリクエストを出す](./github/fork_and_pullreq.md)
-
+[<< GitHubチュートリアルページ >>](./github/index.md)
 
 ## Hardware
 ### Arduino
