@@ -1,11 +1,11 @@
 nav:
-    - index.md
-    - コンピュータ: 00.computer.md
-    - 変数: 01.variable.md
-    - オペレータ: 02.operator.md
-    - コントロール: 03.control.md
-    - 関数: 04.function.md
-    - 名前空間: 05.namespace.md
-    - コンテナ: 06.container.md
-    - テンプレート: 07.template.md
-    - クラス: 08.class.md
+    - はじめに: 00.start.md
+    - コンピュータ: 01.computer.md
+    - 変数: 02.variable.md
+    - オペレータ: 03.operator.md
+    - コントロール: 04.control.md
+    - 関数: 05.function.md
+    - 名前空間: 06.namespace.md
+    - コンテナ: 07.container.md
+    - テンプレート: 08.template.md
+    - クラス: 09.class.md
