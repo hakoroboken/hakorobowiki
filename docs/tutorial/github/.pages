@@ -1,0 +1,7 @@
+title: GitHub
+
+nav:
+    - 1.アカウントをつくろう: 01.create_account.md
+    - 2.リポジトリをつくろう: 02.create_repo.md
+    - 3.ファイルを追加しよう: 03.add_file.md
+    - 4.プルリクエストを作成しよう: 04.fork_and_pullreq.md

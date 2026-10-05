@@ -1,2 +1,7 @@
+title: チュートリアル
+
 nav:
-    - Introduction: index.md
+    - index.md
+    - github
+    - hardware
+    - software
