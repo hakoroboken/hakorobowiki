@@ -1,0 +1,3 @@
+nav:
+    - 1.環境構築: 01.arduino_setup.md
+    - 2.触ってみる: 02.arduino_touch.md
