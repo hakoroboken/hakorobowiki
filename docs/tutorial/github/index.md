@@ -1,4 +1,4 @@
-## Github
+# Github
 
 [１．Githubのアカウントをつくる](./01.create_account.md)
 
