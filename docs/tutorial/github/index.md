@@ -1,6 +1,6 @@
-# Github
+# GitHub
 
-[１．Githubのアカウントをつくる](./01.create_account.md)
+[１．GitHubのアカウントをつくる](./01.create_account.md)
 
 [２．リポジトリを作成する](./02.create_repo.md)
 
