@@ -7,6 +7,6 @@
 
 [**2.ROS2ができること**](./02_ros2_possibility.md)
 
-<!-- [**3.ROS2ノードをつくろう(pubsubする)**](./03_create_node.md)
+[**3.ROS2を使うための下準備**](./03_environment_setup.md)
 
-[**4.ROS2Launchを使おう**](./04_use_launch.md) -->
+<!-- [**4.ROS2Launchを使おう**](./04_use_launch.md) -->
