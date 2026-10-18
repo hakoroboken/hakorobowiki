@@ -50,7 +50,7 @@ git clone https://github.com/hakoroboken/hakorobo_setup.git
 ```
 これで`hakorobo_setup`というフォルダがあなたのPCにできたはずです。
 
-以下のコマンドでそのフォルダ内に移動してください
+以下のコマンドでそのフォルダ内に移動してください。`cd`というコマンドはフォルダへ移動するためのコマンドです。
 ```sh
 cd hakorobo_setup
 ```
