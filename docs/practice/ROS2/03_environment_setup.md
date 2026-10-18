@@ -104,3 +104,7 @@ Press [ENTER] to continue or Ctrl-c to cancel.
 
 ここから結構時間がかかった後に終了したら**環境構築は完了です!!**
 
+パソコンを再起動しましょう。
+```sh
+reboot
+```
