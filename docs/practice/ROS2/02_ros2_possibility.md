@@ -106,6 +106,9 @@ end
 ---
 
 ## その他
+
+![many_items](./img/0201_many_items.png){width="300" align=right}
+
 他にも以下のような多種多様な機能をROS2は有しています。
 
 - 点群、カメラ映像のリアルタイム可視化
