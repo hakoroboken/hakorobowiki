@@ -50,7 +50,7 @@ git clone https://github.com/hakoroboken/hakorobo_setup.git
 ```
 これで`hakorobo_setup`というフォルダがあなたのPCにできたはずです。
 
-以下のコマンドでそのフォルダ内に移動してください
+以下のコマンドでそのフォルダ内に移動してください。`cd`というコマンドはフォルダへ移動するためのコマンドです。
 ```sh
 cd hakorobo_setup
 ```
@@ -66,6 +66,10 @@ chmod +x ./ros2_jazzy_setup.sh
 ```
 
 実行すると以下のように出ると思います
+
+> ちなみに「user@user-laptop」は「ユーザー名@パソコンの名前」っていう意味だぞ
+
+> 人によって変わるからね
 
 ```sh
 user@user-laptop:~/hakorobo_setup$ ./ros2_jazzy_setup.sh 
