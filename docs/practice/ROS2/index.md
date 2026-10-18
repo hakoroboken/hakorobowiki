@@ -9,4 +9,4 @@
 
 [**3.ROS2を使うための下準備**](./03_environment_setup.md)
 
-[**4.ROS2Launchを使おう**](./04_create_node.md)
+[**4.ROS2ノードを作成しよう**](./04_create_node.md)
