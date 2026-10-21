@@ -19,4 +19,6 @@
 
 - [**自己位置くんで遊ぼう**](./practice/zikoichi_kun/index.md)
 
+- [**ROS2をはじめよう**](./practice/ROS2/index.md)
+
 <!-- 見やすいページを作るの難しいです 後任の方々におまかせします-->
