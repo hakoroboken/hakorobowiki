@@ -2,7 +2,8 @@ title: GitHub
 
 nav:
     - 1.アカウントをつくろう: 01.create_account.md
-    - 2.VSCodeでGitを使おう: 02.vscode_connect.md
-    - 3.リポジトリをつくろう: 03.create_repo.md
-    - 4.ファイルを追加しよう: 04.add_file.md
-    - 5.プルリクエストを作成しよう: 05.fork_and_pullreq.md
+    - 2.Gitをどうやって使おう？: 02.how_to_use_git.md
+    - 3.Gitの環境を用意しよう: 03.vscode_connect.md
+    - 4.リポジトリをつくろう: 04.create_repo.md
+    - 5.ファイルを追加しよう: 05.add_file.md
+    - 6.プルリクエストを作成しよう: 06.fork_and_pullreq.md
