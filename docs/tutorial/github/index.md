@@ -13,10 +13,12 @@ VSCodeについても触れています
 
 [1．GitHubのアカウントをつくる](./01.create_account.md)
 
-[2．VSCodeとGitHubの連携](./02.vscode_connect.md)
+[2．Gitをどうやって使おうか?](./02.how_to_use_git.md)
 
-[3．リポジトリを作成する](./03.create_repo.md)
+[3.Gitの環境を用意しよう](./03.vscode_connect.md)
 
-[4．リポジトリにファイルを追加する](./04.add_file.md)
+[4．リポジトリを作成する](./04.create_repo.md)
 
-[5．リポジトリをフォークする＆プルリクエストを出す](./05.fork_and_pullreq.md)
+[5．リポジトリにファイルを追加する](./05.add_file.md)
+
+[6．リポジトリをフォークする＆プルリクエストを出す](./06.fork_and_pullreq.md)
