@@ -15,7 +15,7 @@ VSCodeについても触れています
 
 [2．Gitをどうやって使おうか?](./02.how_to_use_git.md)
 
-[3.Gitの環境を用意しよう](./03.vscode_connect.md)
+[3．Gitの環境を用意しよう](./03.vscode_connect.md)
 
 [4．リポジトリを作成する](./04.create_repo.md)
 
